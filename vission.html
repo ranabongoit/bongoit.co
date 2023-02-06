@@ -472,46 +472,56 @@
 
         <div class="mt-7 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           <!--  Our Clients card -->
-          <div class="profile_container blue_gradient_bg px-4 py-4.6 shadow-2xl card cursor-pointer">
-            <img class="profile_icon" src="./assets/img/home_img/special_icon/clients.png" alt="client-icon" />
-            <h4 class="mt-4 text-center font-bold text-dark-500 text-28">
-              10k+
-            </h4>
-            <p class="text-center font-normal text-lg text-dark-600 mt-2">
-              Our Clients
-            </p>
+          <div data-aos="fade-right" data-aos-duration="1000" id="counter">
+            <div class="profile_container blue_gradient_bg p-4  card cursor-pointer ">
+              <img class="profile_icon" src="./assets/img/home_img/special_icon/clients.png" alt="client-icon" />
+              <h4 class="mt-4 text-center font-bold text-dark-500 text-21 md:text-28 ">
+                <span class="counter-value" data-count="200"> 50</span> <span class="plus_symble">+</span>
+              </h4>
+
+              <p class="text-center font-normal sm:text-sm  md:text-lg text-dark-600 mt-2">
+                Our Clients
+              </p>
+            </div>
           </div>
           <!-- Team members-->
-          <div class="profile_container sun_gradient_bg  px-4 py-4.6 shadow-2xl card cursor-pointer">
-            <img class="profile_icon" src="./assets/img/home_img/special_icon/team_members.png" alt="client-icon" />
-            <h4 class="mt-4 text-center font-bold text-dark-500 text-28">
-              18+
-            </h4>
-            <p class="text-center font-normal text-lg text-dark-600 mt-2">
-              Team members
-            </p>
+          <div data-aos="fade-up" data-aos-duration="1000">
+            <div class="profile_container sun_gradient_bg p-4  card cursor-pointer">
+              <img class="profile_icon" src="./assets/img/home_img/special_icon/team_members.png" alt="client-icon" />
+              <h4 class="mt-4 text-center font-bold text-dark-500 text-21 md:text-28 ">
+                <span class="counter-value" data-count="20">2</span> <span class="plus_symble">+</span>
+              </h4>
+              <p class="text-center font-normal sm:text-sm  md:text-lg text-dark-600 mt-2">
+                Team members
+              </p>
+            </div>
           </div>
 
           <!-- Countries Worldwide -->
-          <div class="profile_container green_gradient_bg  px-4 py-4.6 shadow-2xl card cursor-pointer">
-            <img class="profile_icon" src="./assets/img/home_img/special_icon/country_woldwide.png" alt="client-icon" />
-            <h4 class="mt-4 text-center font-bold text-dark-500 text-28">
-              35+
-            </h4>
-            <p class="text-center font-normal text-lg text-dark-600 mt-2">
-              Countries Worldwide
-            </p>
+          <div data-aos="fade-down" data-aos-duration="1000">
+            <div class="profile_container green_gradient_bg p-4  card cursor-pointer">
+              <img class="profile_icon" src="./assets/img/home_img/special_icon/country_woldwide.png"
+                alt="client-icon" />
+              <h4 class="mt-4 text-center font-bold text-dark-500 text-21 md:text-28">
+                <span class=" counter-value" data-count="50"> 2</span> <span class="plus_symble">+</span>
+              </h4>
+              <p class="text-center font-normal sm:text-sm  md:text-lg text-dark-600 mt-2">
+                Countries Worldwide
+              </p>
+            </div>
           </div>
           <!-- Our amazing products -->
 
-          <div class="profile_container sky_gradient_bg  px-4 py-4.6 shadow-2xl card cursor-pointer">
-            <img class="profile_icon" src="./assets/img/home_img/special_icon/amazing.png" alt="client-icon" />
-            <h4 class="mt-4 text-center font-bold text-dark-500 text-28">
-              35+
-            </h4>
-            <p class="text-center font-normal text-lg text-dark-600 mt-2">
-              Our amazing products
-            </p>
+          <div data-aos="fade-left" data-aos-duration="1000">
+            <div class="profile_container sky_gradient_bg p-4  card cursor-pointer">
+              <img class="profile_icon" src="./assets/img/home_img/special_icon/amazing.png" alt="client-icon" />
+              <h4 class="mt-4 text-center font-bold text-dark-500 text-21 md:text-28 ">
+                <span class="counter-value" data-count="800">0</span> <span class="plus_symble">+</span>
+              </h4>
+              <p class="text-center font-normal sm:text-sm  md:text-lg text-dark-600 mt-2">
+                Our amazing products
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -751,6 +761,9 @@
   </footer>
 
 
+
+  <!-- jquery cdn-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 
   <script src="./assets/JS/index.js"></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>

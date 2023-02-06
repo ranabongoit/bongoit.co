@@ -1201,7 +1201,6 @@ select {
   top: 50%;
 }
 .erp_download_btn {
-  /* transform: translate(-50%, 46%); */
   left: 50%;
   transform: translate(-50%, -13%);
   width: 107px;
